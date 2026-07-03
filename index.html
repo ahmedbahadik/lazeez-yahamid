@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#344414" />
+    <meta
+      name="description"
+      content="اطلب طبق ورق العنب من لذيذ يا حامض، واختر الاستلام أو التوصيل وأرسل طلبك مباشرة عبر واتساب."
+    />
+    <meta property="og:title" content="لذيذ يا حامض | ورق عنب" />
+    <meta property="og:description" content="ورق عنب بطابع لذيذ وحامض — اطلبه الآن عبر واتساب." />
+    <meta property="og:image" content="assets/opening-poster.webp" />
+    <title>لذيذ يا حامض | ورق عنب</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">انتقل إلى المحتوى</a>
+
+    <div class="page-glow page-glow--top" aria-hidden="true"></div>
+    <div class="page-glow page-glow--bottom" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="shell header-inner">
+        <button class="brand" type="button" data-go="home" aria-label="العودة إلى الصفحة الرئيسية">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 36 36" fill="none">
+              <path d="M27.8 7.6C19.1 7.2 11 12 9.2 21.3c5.6 1 11.1-.4 14.8-4.7-2.2 4.8-6.1 7.7-11.3 8.8" />
+              <path d="M9.2 21.3c-2.2.2-4.2 1.3-5.8 3.1" />
+            </svg>
+          </span>
+          <span>
+            <strong>لذيذ يا حامض</strong>
+            <small>فتّة وورق عنب</small>
+          </span>
+        </button>
+
+        <a class="header-contact" data-store-phone-link href="tel:0557277294">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6.7 2.8 9.4 8 7.7 9.8c1.5 2.9 3.7 5.1 6.6 6.6l1.8-1.7 5.2 2.7-.8 3.2c-.2.8-.9 1.4-1.8 1.4C9.5 22 2 14.5 2 5.3c0-.9.6-1.6 1.4-1.8l3.3-.7Z" />
+          </svg>
+          <span data-store-phone>0557277294</span>
+        </a>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="view is-active" data-view="home" aria-labelledby="home-title">
+        <div class="shell home-layout">
+          <div class="poster-wrap reveal">
+            <div class="poster-halo" aria-hidden="true"></div>
+            <img
+              class="poster"
+              src="assets/opening-poster.webp"
+              width="722"
+              height="756"
+              alt="عرض افتتاح لذيذ يا حامض — الصحن بسعر 15 ريال"
+              fetchpriority="high"
+            />
+          </div>
+
+          <div class="product-side reveal reveal--delay">
+            <p class="eyebrow">طعم يجمع اللذيذ والحامض</p>
+            <h1 id="home-title">ورق عنب بطابع ما يُنسى</h1>
+            <p class="hero-copy">
+              طبق غني بالنكهات، محضّر بعناية ومزيّن بالرمان والأعشاب والمكسرات. اطلبه بخطوات بسيطة
+              وأكمل طلبك عبر واتساب.
+            </p>
+
+            <article class="product-card" aria-labelledby="product-name">
+              <div class="product-image-wrap">
+                <img
+                  class="product-image"
+                  src="assets/grape-leaf-fattah.webp"
+                  width="1100"
+                  height="825"
+                  alt="طبق فتّة ورق العنب مع الرمان والمكسرات"
+                  loading="eager"
+                />
+                <span class="offer-badge">خصم حالي</span>
+              </div>
+
+              <div class="product-content">
+                <div class="product-heading">
+                  <div>
+                    <p class="availability"><span aria-hidden="true"></span> متاح للطلب</p>
+                    <h2 id="product-name" data-product-name>ورق عنب (طبق)</h2>
+                  </div>
+                  <div class="price-block" aria-label="السعر 15 ريال بدلًا من 25 ريال">
+                    <span class="old-price"><span data-old-price>25</span> ريال</span>
+                    <strong><span data-current-price>15</span> <small>ريال</small></strong>
+                  </div>
+                </div>
+
+                <p class="product-description" data-product-description>
+                  ورق عنب محشي بالأرز والتوابل العربية الأصيلة، مقدّم بشكل فاخر مع الليمون الطازج.
+                </p>
+
+                <button class="primary-button" type="button" data-go="order">
+                  <span>اطلب الآن</span>
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="m9 18 6-6-6-6" />
+                  </svg>
+                </button>
+              </div>
+            </article>
+
+            <div class="service-points" aria-label="مميزات الطلب">
+              <div><span>01</span><p><strong>طلب سريع</strong><small>بدون تسجيل</small></p></div>
+              <div><span>02</span><p><strong>استلام أو توصيل</strong><small>اختر الأنسب لك</small></p></div>
+              <div><span>03</span><p><strong>تأكيد مباشر</strong><small>عبر واتساب</small></p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="view" data-view="order" aria-labelledby="order-title" hidden>
+        <div class="shell narrow-shell">
+          <div class="view-topbar">
+            <button class="back-button" type="button" data-go="home">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6" /></svg>
+              <span>العودة</span>
+            </button>
+            <span class="step-label">خطوة 1 من 2</span>
+          </div>
+
+          <div class="order-card">
+            <div class="order-card-head">
+              <img src="assets/grape-leaf-fattah.webp" alt="" width="88" height="72" />
+              <div>
+                <p>طلبك</p>
+                <h1 id="order-title" data-product-name>ورق عنب (طبق)</h1>
+              </div>
+              <strong><span data-current-price>15</span> ريال</strong>
+            </div>
+
+            <form id="order-form" novalidate>
+              <fieldset class="quantity-fieldset">
+                <legend>الكمية</legend>
+                <div class="quantity-control">
+                  <button type="button" data-quantity="decrease" aria-label="تقليل الكمية">−</button>
+                  <output id="quantity-output" aria-live="polite">1</output>
+                  <button type="button" data-quantity="increase" aria-label="زيادة الكمية">+</button>
+                </div>
+              </fieldset>
+
+              <div class="field">
+                <label for="customer-name">الاسم</label>
+                <input id="customer-name" name="name" type="text" autocomplete="name" placeholder="اكتب اسمك الكريم" required />
+                <span class="field-error" id="name-error"></span>
+              </div>
+
+              <div class="field">
+                <label for="customer-mobile">رقم الجوال</label>
+                <input
+                  id="customer-mobile"
+                  name="mobile"
+                  type="tel"
+                  inputmode="tel"
+                  autocomplete="tel"
+                  dir="ltr"
+                  placeholder="05XXXXXXXX"
+                  required
+                />
+                <span class="field-error" id="mobile-error"></span>
+              </div>
+
+              <fieldset class="method-fieldset">
+                <legend>طريقة الاستلام</legend>
+                <div class="method-grid">
+                  <label class="method-option">
+                    <input type="radio" name="fulfillment" value="pickup" checked />
+                    <span class="method-card">
+                      <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M12 22s7-5.8 7-13a7 7 0 1 0-14 0c0 7.2 7 13 7 13Z" />
+                        <circle cx="12" cy="9" r="2.4" />
+                      </svg>
+                      <strong>استلام من المحل</strong>
+                      <small>نجهّزه وتستلمه بنفسك</small>
+                    </span>
+                  </label>
+                  <label class="method-option">
+                    <input type="radio" name="fulfillment" value="delivery" />
+                    <span class="method-card">
+                      <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M3 6h11v11H3zM14 10h4l3 4v3h-7z" />
+                        <circle cx="7" cy="18" r="2" /><circle cx="18" cy="18" r="2" />
+                      </svg>
+                      <strong>توصيل</strong>
+                      <small>نحدّد الرسوم عبر واتساب</small>
+                    </span>
+                  </label>
+                </div>
+              </fieldset>
+
+              <div class="field address-field" id="address-field" hidden>
+                <label for="customer-address">عنوان التوصيل</label>
+                <textarea
+                  id="customer-address"
+                  name="address"
+                  rows="3"
+                  autocomplete="street-address"
+                  placeholder="المدينة، الحي، الشارع، وأقرب معلم"
+                ></textarea>
+                <span class="field-error" id="address-error"></span>
+              </div>
+
+              <div class="field">
+                <label for="order-notes">ملاحظات <small>(اختياري)</small></label>
+                <textarea id="order-notes" name="notes" rows="3" maxlength="300" placeholder="أي ملاحظات إضافية على الطلب؟"></textarea>
+              </div>
+
+              <div class="delivery-note" role="note">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <circle cx="12" cy="12" r="9" /><path d="M12 11v5M12 8h.01" />
+                </svg>
+                <p><strong>رسوم التوصيل غير مشمولة</strong><br />سيتم تحديدها وتأكيدها معك عبر واتساب.</p>
+              </div>
+
+              <div class="order-total">
+                <span>إجمالي المنتجات</span>
+                <strong><span id="order-total-value">15</span> ريال</strong>
+              </div>
+
+              <button class="primary-button submit-button" type="submit">
+                <span>تجهيز الطلب</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6" /></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="view" data-view="ready" aria-labelledby="ready-title" hidden>
+        <div class="shell ready-shell">
+          <div class="ready-card">
+            <div class="success-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" /><path d="m15 24 6 6 12-13" /></svg>
+            </div>
+            <p class="step-label">الخطوة الأخيرة</p>
+            <h1 id="ready-title">تم تجهيز طلبك!</h1>
+            <p class="ready-intro">طلبك لم يُرسل بعد. اضغط الزر أدناه لإرسال التفاصيل وتأكيد الطلب عبر واتساب.</p>
+
+            <div class="summary-box" aria-label="ملخص الطلب">
+              <div><span>المنتج</span><strong data-product-name>ورق عنب (طبق)</strong></div>
+              <div><span>الكمية</span><strong id="summary-quantity">1</strong></div>
+              <div><span>طريقة الاستلام</span><strong id="summary-method">استلام من المحل</strong></div>
+              <div><span>إجمالي المنتجات</span><strong><span id="summary-total">15</span> ريال</strong></div>
+            </div>
+
+            <a id="whatsapp-order-link" class="whatsapp-button" href="#" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20.5 11.7a8.5 8.5 0 0 1-12.6 7.4L3 20.4l1.3-4.7A8.5 8.5 0 1 1 20.5 11.7Z" />
+                <path d="M8.2 7.4c.2-.4.5-.4.8-.4h.4c.2 0 .4.1.5.4l.8 2c.1.3.1.5-.1.7l-.7.8c-.2.2-.1.4 0 .6.7 1.3 1.8 2.3 3.2 2.9.2.1.4.1.6-.1l.9-1.1c.2-.2.4-.3.7-.2l1.9.9c.3.1.5.3.5.5 0 .3-.2 1.4-.9 1.9-.6.5-1.4.8-2.3.6-1.1-.2-3.2-1-5.3-2.9-1.7-1.5-2.8-3.5-3.1-4.6-.3-.9 0-1.7.3-2Z" />
+              </svg>
+              <span>إرسال الطلب عبر واتساب</span>
+            </a>
+
+            <button class="text-button" type="button" data-go="order">تعديل بيانات الطلب</button>
+            <button class="text-button text-button--muted" type="button" data-go="home">العودة للرئيسية</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" data-home-only>
+      <div class="shell footer-inner">
+        <div>
+          <strong>لذيذ يا حامض</strong>
+          <p>الطعم اللي يخلّيك تطلبها مرة ثانية.</p>
+        </div>
+        <nav class="social-links" aria-label="حسابات التواصل">
+          <a data-instagram-link href="https://instagram.com/Lazeez_yahamid" target="_blank" rel="noopener" aria-label="إنستغرام">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.5" cy="6.5" r="1" /></svg>
+          </a>
+          <a data-tiktok-link href="https://www.tiktok.com/@Lazeez_yahamid" target="_blank" rel="noopener" aria-label="تيك توك">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4v10.5a4.5 4.5 0 1 1-4-4.47" /><path d="M14 4c.6 2.8 2.2 4.4 5 5" /></svg>
+          </a>
+          <a data-store-whatsapp href="https://wa.me/966557277294" target="_blank" rel="noopener" aria-label="واتساب">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.7a8.5 8.5 0 0 1-12.6 7.4L3 20.4l1.3-4.7A8.5 8.5 0 1 1 20.5 11.7Z" /><path d="M8.5 8c.9 4.1 3 6.2 7 7.4" /></svg>
+          </a>
+        </nav>
+      </div>
+      <p class="copyright">© <span id="current-year"></span> لذيذ يا حامض</p>
+    </footer>
+  </body>
+</html>
